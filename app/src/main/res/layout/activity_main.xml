@@ -5,13 +5,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="16dp"
     tools:context="com.hmmwow.www.justjava.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+        android:text="Toppings"
+        android:textAllCaps="true"
+
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Whipped cream"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textSize="16sp"
+        android:paddingLeft="24dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Quantity"
+        android:layout_marginTop="16dp"
         android:textAllCaps="true" />
 
     <LinearLayout
@@ -22,7 +40,6 @@
         <Button
             android:layout_width="48dp"
             android:layout_height="48dp"
-            android:layout_marginLeft="16dp"
             android:onClick="decrement"
             android:text="-" />
 
@@ -47,7 +64,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
+
         android:text="Order Summary"
         android:textAllCaps="true" />
 
@@ -67,7 +84,6 @@
     android:id="@+id/thank_you_text_view"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:layout_marginLeft="16dp"
     android:text=""
     android:textColor="#000"
     android:textSize="16sp" />
@@ -75,7 +91,6 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="16dp"
         android:onClick="submitOrder"
         android:text="Order" />
 
