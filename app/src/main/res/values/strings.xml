@@ -1,3 +1,12 @@
-<resources>
-    <string name="app_name">Just Java</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="false">Just Java</string>
+
+    <!-- Header text for the list of toppings [CHAR LIMIT=20] -->
+    <string name="toppings" translatable="false">Toppings</string>
+
+    <!-- Thank you message for order summary [CHAR LIMIT=NONE] -->
+    <string name="thank_you" translatable="false">Thank you !</string>
+
+    <!-- Header text for thr list of toppings [CHAR LIMIT=20] -->
+    <string name="order_summary_name" translatable="false">Name: <xliff:g id="name" example="renz">%s</xliff:g></string>
 </resources>
