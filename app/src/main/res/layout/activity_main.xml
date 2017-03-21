@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
-            android:text="2"
+            android:text="0"
             android:textColor="#000"
             android:textSize="16sp" />
 
@@ -48,17 +48,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="Amount"
+        android:text="Order Summary"
         android:textAllCaps="true" />
 
+    <!-- OUTPUT TOTAL -->
     <TextView
-        android:id="@+id/price_text_view"
+        android:id="@+id/order_summary_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="16dp"
-        android:text="$10"
+        android:text=""
         android:textColor="#000"
-        android:textSize="16sp" />
+        android:textSize="16sp"
+         />
+
+    <!-- THANK YOU! -->
+    <TextView
+    android:id="@+id/thank_you_text_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:text=""
+    android:textColor="#000"
+    android:textSize="16sp" />
 
     <Button
         android:layout_width="wrap_content"
